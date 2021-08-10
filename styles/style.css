@@ -6,7 +6,7 @@ body {
 }
 
 body.light {
-  --foreground: black;
+  --foreground: #1d1c1a;
   --background: #eeeeee;
   --background-alpha: rgba(238, 238, 238, 0.8);
   color: var(--foreground);
@@ -15,8 +15,8 @@ body.light {
 
 body.dark {
   --foreground: #eeeeee;
-  --background: black;
-  --background-alpha: rgba(0, 0, 0, 0.8);
+  --background: #1d1c1a;
+  --background-alpha: rgba(29, 28, 26, 0.8);
   color: var(--foreground);
   background-color: var(--background);
 }
@@ -64,13 +64,13 @@ p {
 .radialGradientTopLeft {
   background: #95b8d1;
   background-image: radial-gradient(circle at 0 0, #95b8d1 0%, #809bce 100%);
-  color: black;
+  color: #1d1c1a;
 }
 
 .radialGradientCenter {
   background: #95b8d1;
   background-image: radial-gradient(circle, #95b8d1 0%, #809bce 100%);
-  color: black;
+  color: #1d1c1a;
 }
 
 .zoomOnHover {

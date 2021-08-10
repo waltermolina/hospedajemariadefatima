@@ -414,14 +414,18 @@ main {
 #section2 {
   margin-bottom: 4vmin;
   color: var(--foreground);
+  position: relative;
 }
 
 #section2 .background {
   grid-column: 1 / -1;
   grid-row: 1 / span 2;
+  transform: rotate(1deg) scaleX(1.2);
+  z-index: 0;
 }
 
 #section2 section {
+  z-index: 1;
   grid-column: 8 / -8;
   grid-row: 1;
   display: flex;
@@ -625,10 +629,22 @@ main {
   color: #eeeeee;
 }
 
-#section8 .border {
+#section8 .radialGradientCenter {
   grid-column: 4 / -4;
   grid-row: 2 / -2;
-  border: 2px solid #eeeeee;
+  transform: rotate(-1deg) scaleX(1.2);
+  z-index: 0;
+}
+
+#section8 .border {
+  grid-column: 1 / -1;
+  grid-row: 2 / -2;
+  border: 2px solid #eee;
+  z-index: 1;
+  transform: rotate(1deg);
+  z-index: 0;
+  border-left: none;
+  border-right: none;
 }
 
 #section8 section.info {
@@ -638,6 +654,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-self: start;
+  z-index: 1;
 }
 
 #section8 section.info > h1 {
@@ -650,6 +667,7 @@ main {
   justify-self: left;
   color: #eeeeee;
   border-color: #eeeeee;
+  z-index: 1;
 }
 
 #section8 > .ctalink.link1 {

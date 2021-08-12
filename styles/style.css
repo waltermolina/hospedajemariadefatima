@@ -340,6 +340,8 @@ nav > button {
 main {
   position: relative;
   margin-top: 90vh;
+  width: 100%;
+  overflow-x: hidden;
   background-color: var(--background);
   color: var(--foreground);
   /*

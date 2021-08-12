@@ -553,10 +553,6 @@ main {
   grid-row: 2;
 }
 
-#section6 .card > h3 {
-  margin: 0 0 1rem;
-}
-
 #section6 .card .tag {
   margin: 0 0 1rem;
   display: inline-block;

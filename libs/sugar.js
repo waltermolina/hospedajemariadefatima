@@ -79,7 +79,7 @@ $(document).ready(function () {
         elementType: "labels.text.fill",
         stylers: [
           {
-            color: "#dd2c00"
+            color: "#809bce"
           }
         ]
       },
@@ -89,7 +89,7 @@ $(document).ready(function () {
         stylers: [
           {
             visibility: "on",
-            color: "#dd2c00"
+            color: "#809bce"
           }
         ]
       },
@@ -110,7 +110,7 @@ $(document).ready(function () {
             visibility: "simplified"
           },
           {
-            hue: "#ff0000"
+            hue: "#809bce"
           }
         ]
       },
@@ -119,7 +119,7 @@ $(document).ready(function () {
         elementType: "all",
         stylers: [
           {
-            color: "#f2f2f2"
+            color: "#95b8d1"
           }
         ]
       },
@@ -128,7 +128,7 @@ $(document).ready(function () {
         elementType: "geometry",
         stylers: [
           {
-            color: "#ff6434"
+            color: "#95b8d1"
           },
           {
             saturation: "0"
@@ -200,7 +200,7 @@ $(document).ready(function () {
         elementType: "all",
         stylers: [
           {
-            color: "#dd2c00"
+            color: "#809bce"
           },
           {
             visibility: "on"

@@ -1,7 +1,7 @@
-# F&M Traslados
-En este repositorio están almacenados los archivos de la web desarrollada para **F&M Traslados**.
+# María de Fátima
+En este repositorio están almacenados los archivos de la web desarrollada para **María de Fátima**.
 
-La web puede verse funcionando en [este link](https://waltermolina.github.io/fymtraslados/)
+La web puede verse funcionando en [este link](https://waltermolina.github.io/hospedajemariadefatima/)
 
 ## Detalles técnicos:
 Esta web simple, se realizó utilizando principalmente HTML5 y CSS3, con layouts modernos como Flexbox y CSS Grid.

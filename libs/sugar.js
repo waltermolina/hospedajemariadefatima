@@ -59,18 +59,18 @@ $(document).ready(function () {
     map = new GMaps({
       div: "#locationMap",
       zoom: 15,
-      lat: -33.68517984474696,
-      lng: -65.47050683897857,
+      lat: -33.6851069,
+      lng: -65.4710029,
       disableDefaultUI: true,
       gestureHandling: "greedy"
     });
     map.addMarker({
-      lat: -33.6851847,
-      lng: -65.4726403,
-      title: "Estamos acá",
+      lat: -33.68517724760115,
+      lng: -65.47045253206728,
+      title: "Estamos acá 😁!",
       infoWindow: {
         content:
-          '<a href="https://goo.gl/maps/S5SzJFTKxu42" target="_blank" >Ver en Google Maps</a>'
+          '<a href="https://goo.gl/maps/Es4hAmj4u8rTqyJv9" target="_blank" >🗺️ Visitanos en Google Maps</a>'
       }
     });
     var styles = [
